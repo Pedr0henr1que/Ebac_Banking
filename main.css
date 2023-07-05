@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+:root{
+    --main-color: ;
+    --second-color: ;
+    --firstbutton-color: ;
+    --secondbutton-color: ;
+    --p-color: #000000;
+}
+
+body {
+    font-family:'Poppins', sans-serif;
+}
+
+h1{
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+h2{
+    font-family: 'Poppins';
+    font-weight: 300;
+}
+
+.container h1,
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 3px;
+}
+
+button {
+    width: 350px;
+    border: 2px solid #3CB371;
+    border-radius: 5px;
+    transition: all 0.5s;
+    cursor: pointer;
+    background: white;
+    font-size: 1.2em;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    margin: 5px;
+    padding: 20px;
+  }
+  
+  button:hover {
+    background: #3CB371;
+    color: white;
+    font-size: 1.5em;
+  }
+
+  .container input{
+    border-width: 1px;
+    border-radius: 4px;
+    height: 35px;
+    margin: 16px;
+    width: 350px;
+    padding: 16px;
+  }
+
+  .container textarea{
+    display: block;
+    border-width: 1px;
+    border-radius: 4px;
+    height: 35px;
+    margin: 16px;
+    width: 350px;
+    padding: 16px;
+  }
+
+.sucess-message{
+    background-color: #27ae60;
+    padding: 16px;
+    color: #000000;
+    display: none;
+    justify-content: space-evenly;
+    align-items: center;
+    border-width: 1px;
+    border-radius: 4px;
+}
+
+.error-message{
+  padding: 8px;
+  background-color: rgb(248, 27, 27);
+  color: #ffffff;
+  border-width: 1px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  font-size: 14px;
+  display: none;
+  width: 365px;
+}
+
+input.error{
+  color: red;
+  border-color: red;
+  outline-color: red;
+}
